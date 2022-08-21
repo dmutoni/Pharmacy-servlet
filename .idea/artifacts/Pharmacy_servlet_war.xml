@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Pharmacy-servlet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Pharmacy-servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Pharmacy-servlet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Pharmacy-servlet:war exploded" />
+    </root>
+  </artifact>
+</component>
